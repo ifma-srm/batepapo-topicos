@@ -1,0 +1,403 @@
+body {
+  margin: 0;
+  background-image: url(bg-masthead.jpg);
+
+}
+.desenvolvedores{
+  margin-left: 100px;
+  color: #757575;
+  width: 1000px;
+  font-family: fantasy;
+  font-size: 30px;
+}
+.sobreum{
+  color :#757575;
+  font-family: sans-serif;
+  margin-left: 100px;
+  font-size: 18px;
+}
+.sobre{
+  margin-top: 100px;
+  margin-left: 100px;
+  color: #757575;
+  width: 1000px;
+  font-family: fantasy;
+}
+.cent{
+  width: 300px;
+  margin-left: 600px;
+  margin-top: 180px;
+
+}
+.central{
+  color:#757575 ;
+  margin-top: 30px;
+  margin-left: 520px;
+  font-size: 30px;
+  text-align: left;
+  font-family: sans-serif;
+}
+.android-search-box .mdl-textfield__input {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.android-header .mdl-menu__container {
+  z-index: 50;
+  margin: 0 !important;
+}
+
+
+.mdl-textfield--expandable {
+  width: auto;
+}
+
+
+.android-fab {
+  position: absolute;
+  right: 20%;
+  bottom: -26px;
+  z-index: 3;
+  background: #64ffda !important;
+  color: black !important;
+}
+
+.android-mobile-title {
+  display: none !important;
+}
+
+
+.android-logo-image {
+  height: 40px;
+  width: 140px;
+}
+
+
+.android-header {
+  overflow: visible;
+  background-color: transparent;
+}
+
+  .android-header .material-icons {
+    color: #767777 !important;
+  }
+
+  .android-header .mdl-layout__drawer-button {
+    background: transparent;
+    color: #767777;
+  }
+
+  .android-header .mdl-navigation__link {
+    color: #757575;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .android-navigation-container {
+    /* Simple hack to make the overflow happen to the left instead... */
+    direction: rtl;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 500px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .android-navigation {
+    /* ... and now make sure the content is actually LTR */
+    direction: ltr;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 800px;
+  }
+
+  .android-search-box.is-focused + .android-navigation-container {
+    opacity: 0;
+    width: 100px;
+  }
+
+
+  .android-navigation .mdl-navigation__link {
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+  }
+
+    .android-navigation .mdl-navigation__link:hover {
+      border-bottom: 4px solid #ff0000;
+    }
+ .demo-card-square.mdl-card {
+  margin-left: 100px;
+  width: 300px;
+  height: 300px;
+  background: #4F4F4F;
+}
+.demo-card-square > .mdl-card__title {
+  height: 20px;
+  color: #fff;
+  background:
+    url('') bottom right 15% no-repeat #fff;
+  
+}
+.botaocard{
+  background: #fafafa;
+  
+}
+.myButton {
+  box-shadow: 3px 4px 0px 0px #d1132c;
+  background:linear-gradient(to bottom, #ff0000 5%, #ff0303 100%);
+  background-color:#ff0000;
+  border-radius:5px;
+  border:1px solid #ff0000;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  font-weight:bold;
+  padding:12px 44px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #c21313;
+  width: 40px;
+  margin-left: 0px;
+  marker-end: 50px;
+  text-align: center;
+
+
+}
+.myButton:hover {
+  background:linear-gradient(to bottom, #ff0303 5%, #ff0000 100%);
+  background-color:#ff0303;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+.mdl-card__supporting-text{
+  color: white;
+}
+.mdl-card__title{
+  background-image: url('ifma.png');
+}
+//
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-left: 100px;
+  width: 150px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {;
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+/*
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  transition: 0.4s;
+}
+*/
+.rom{
+  position: absolute;
+  top:450px;
+  left: 280px;
+
+}
+.cards-list2 {
+  margin-top: 0px;
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card2 {
+  position: 
+  margin-left: px;
+  width: 150px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card2 .card_image2 {;
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card2 .card_image2 img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card2 .card_title2 {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card2:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white2 {
+  color: white;
+}
+
+.title-black2 {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list2 {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+/*GRITANDO CADA VEZ MAIS ALTO*/
+.xande{
+  position: absolute;
+  top:4px;
+  left: 180px;
+
+}
+.cards-list3 {
+  margin-top: 0px;
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card3 {
+  position: 
+  margin-left: px;
+  width: 150px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card3 .card_image3 {;
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card3 .card_image3 img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card3 .card_title3 {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card3:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white3 {
+  color: white;
+}
+
+.title-black3 {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list3 {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+  
